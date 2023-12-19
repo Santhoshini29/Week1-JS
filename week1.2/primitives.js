@@ -32,6 +32,14 @@ if(isMarried == true){
 else{
   console.log(firstName + " is not married.");
 }
+ //loops 
+  let answer = 0;
+
+ for(let i = 0; i<=1000; i++){
+  answer++;
+ }
+
+ console.log(answer);
 
  
   
