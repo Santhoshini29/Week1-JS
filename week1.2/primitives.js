@@ -40,6 +40,27 @@ else{
  }
 
  console.log(answer);
+  
+ //Complex Primitives -  Arrays and Objects
+/// Arrays
+const ages = [21, 22, 23, 24, 25];
+const numberOfPeople = ages.length;
+for(let i = 0; i<numberOfPeople; i++){
+  if(ages[i] % 2 == 0){ 
+    console.log(ages[i]);
+  }
+}
 
+const personArray = ["ram", "sita", "laxman", "hanuman"];
+const genderArray = ["male", "female", "male", "male",];
+const numberOfUsers = personArray.length;
+  // loop through and print all male / female names
+for(let i = 0; i<numberOfUsers; i++){
+      if (genderArray[i] == "male") {
+         console.log(personArray[i]);
+      }
+  }
  
   
+   
+
