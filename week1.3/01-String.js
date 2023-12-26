@@ -13,9 +13,4 @@ getLength("hello world");
   console.log("Index  is:",str.last(target));
 
  }
- findIndexof("Hello world","world");
- // str.length
- //str.lastIndexOf(argument)
-
- //getSlice - - - - 
  
